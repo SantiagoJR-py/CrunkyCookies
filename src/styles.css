@@ -1,1 +1,114 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Paleta de marca Crunky Cookies */
+  --crema: #F5ECD7;
+  --crema-light: #FAF4E4;
+  --crema-deep: #EFE2C5;
+  --chocolate: #4A2C17;
+  --chocolate-soft: #7A4A28;
+  --chocolate-light: #9A6840;
+  --rosa: #E8C4B8;
+  --rosa-light: #F2D5C0;
+  --rosa-deep: #E0B0A0;
+  --dorado: #C9A47A;
+  --dorado-deep: #B8904A;
+  --whatsapp: #25D366;
+  --whatsapp-dark: #128C7E;
+
+  /* Tipografía */
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+
+  /* Espaciado y radios */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --shadow-soft: 0 8px 24px rgba(74, 44, 23, 0.08);
+  --shadow-md: 0 12px 36px rgba(74, 44, 23, 0.14);
+  --shadow-lg: 0 24px 64px rgba(74, 44, 23, 0.18);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--chocolate);
+  background-color: var(--crema);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  color: var(--chocolate);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--chocolate);
+}
+
+::selection {
+  background: var(--rosa);
+  color: var(--chocolate);
+}
+
+/* Scroll bar suave */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--crema-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--chocolate-light);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--chocolate-soft);
+}
+
+/* Reduce motion accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
