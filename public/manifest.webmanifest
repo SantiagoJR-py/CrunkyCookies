@@ -1,0 +1,16 @@
+{
+  "name": "Crunky Cookies · Galletas estilo New York en Girardot",
+  "short_name": "Crunky Cookies",
+  "description": "Galletas estilo New York hechas a mano en Girardot. Pide por WhatsApp.",
+  "lang": "es-CO",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FCF8EE",
+  "theme_color": "#2A160B",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://crunkycookies.com/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://crunkycookies.com/og-image.jpg</image:loc></image:image>
+    <image:image><image:loc>https://crunkycookies.com/galletas/chocochip.webp</image:loc></image:image>
+    <image:image><image:loc>https://crunkycookies.com/galletas/doblechoco.webp</image:loc></image:image>
+    <image:image><image:loc>https://crunkycookies.com/galletas/redvelvet.webp</image:loc></image:image>
+    <image:image><image:loc>https://crunkycookies.com/galletas/nutella.webp</image:loc></image:image>
+    <image:image><image:loc>https://crunkycookies.com/galletas/oreo.webp</image:loc></image:image>
+    <image:image><image:loc>https://crunkycookies.com/galletas/manichoco.webp</image:loc></image:image>
+  </url>
+</urlset>
