@@ -31,8 +31,8 @@ interface OrderItem {
 })
 export class App {
   protected readonly title = signal('Crunky Cookies');
-  protected readonly whatsappNumber = '573243300085';
-  protected readonly whatsappDisplay = '+57 324 330 0085';
+  protected readonly whatsappNumber = '573043432348';
+  protected readonly whatsappDisplay = '+57 304 343 2348';
 
   protected readonly cookies = signal<Cookie[]>([
     {

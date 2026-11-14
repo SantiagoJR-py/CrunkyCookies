@@ -30,14 +30,14 @@ Definidos como variables CSS en `src/styles.css` (`--crema`, `--chocolate`, `--r
 4. **Nuestras galletas** — 6 tarjetas + tarjeta especial “Personaliza la tuya” que lleva al formulario.
 5. **¿Cómo pedir?** — 3 pasos visuales (Elige sabor → Escríbenos → Recibe en tu puerta).
 6. **Reseñas** — 3 testimonios con estrellas y barrios (prueba social).
-7. **Pedido / Contacto** — formulario que arma el mensaje y abre **WhatsApp directo a +57 324 330 0085** con el pedido pre-armado.
+7. **Pedido / Contacto** — formulario que arma el mensaje y abre **WhatsApp directo a +57 304 343 2348** con el pedido pre-armado.
 8. **Footer** + **botón flotante de WhatsApp** visible en toda la página.
 
 ## Cómo funciona el flujo de pedido
 
 - Cada tarjeta de sabor tiene un botón `+` que suma al pedido.
 - Aparece un resumen flotante con el conteo y un botón “Continuar pedido”.
-- Al enviar el formulario, se construye un mensaje formateado y se abre `https://wa.me/573243300085?text=...`.
+- Al enviar el formulario, se construye un mensaje formateado y se abre `https://wa.me/573043432348?text=...`.
 - El botón flotante y el botón “Pedir directo por WhatsApp” abren un mensaje genérico para clientes que no quieren llenar el formulario.
 
 ## SEO local Girardot
@@ -67,7 +67,7 @@ Mobile-first. Breakpoints en `src/app/app.css`:
 ## Cosas que aún puedes pulir tú
 
 - **Reemplazar las ilustraciones SVG** por fotos reales de tus galletas cuando tengas la sesión de fotos lista (van en `<ng-template #cookieIllustration>` en `src/app/app.html`, o reemplaza la ilustración por `<img src="/fotos/tu-foto.jpg">`).
-- **Conectar Instagram** real cambiando el link en el footer (`https://instagram.com/crunky.cookies`).
+- **Conectar Instagram** real cambiando el link en el footer (`https://instagram.com/crunkycookies.co`).
 - **Crear el perfil de Google My Business** con la dirección física para aparecer en el mapa.
 - **Sumar precios** SOLO cuando tengas costos confirmados (intencionalmente no incluí precios para no comprometerte con números equivocados).
 
